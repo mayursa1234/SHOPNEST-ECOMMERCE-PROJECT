@@ -1,0 +1,59 @@
+.dashboard {
+  padding: 30px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #555;
+  font-size: 18px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.recent-orders {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.recent-orders table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.recent-orders th,
+.recent-orders td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.recent-orders th {
+  background: #2563eb;
+  color: white;
+}
